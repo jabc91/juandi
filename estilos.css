@@ -1,0 +1,91 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  background: linear-gradient(90deg, #40E0D0, #FF8C00);
+  text-align: center;
+
+}
+h1{
+  text-align: center;
+  color: white;
+  font-family: "Algerian";
+  font-size: 50px;
+  position: relative;
+  top: 0px;
+}
+
+span{
+  position: relative;
+  left: 0px;
+  top: 50px;
+}
+
+input{
+  position: relative;
+  left: 0px;
+  top: 50px;
+  background: white;
+  border: 2px solid black;
+}
+
+#ingresar{
+  position: relative;
+  margin: 70px 250px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+#usuario{
+  border: 2px solid black;
+}
+#contraseña{
+  border: 2px solid black;
+}
+/*parte videos*/
+div{
+  width: 500px;
+  height: 250px;
+  margin: auto;
+  top: 60px;
+}
+#box1{
+  background: red;
+  position: relative;
+  top: 50px;
+  left: -260px;
+  border: 2px solid black;
+
+}
+
+#box2{
+  background: green;
+  position: relative;
+  top: -204px;
+  left: 260px;
+  border: 2px solid black;
+}
+
+#box3{
+  background: blue;
+  position: relative;
+  top: -190px;
+  left: -260px;
+  border: 2px solid black;
+}
+
+#box4{
+  background: purple;
+  position: relative;
+  top: -444px;
+  left: 260px;
+  border: 2px solid black;
+}
+
+#ingresar:hover{
+  transition: 1s;
+  background: linear-gradient(90deg, #FF8C00, #40E0D0);
+  border-radius: 50px;
+  transform: rotate(360deg);
+  padding: 15px;
+  border: 2px solid white;
+}
